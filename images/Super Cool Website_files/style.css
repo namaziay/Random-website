@@ -1,0 +1,153 @@
+body {
+  background-color: #1d1d1d;
+  box-sizing: border-box;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  width: 13%;
+  /* min-width: 150px; */
+  height: 100vh;
+  left: 0;
+  top: 0;
+  right: auto;
+  position: fixed;
+  padding: 0;
+  margin-top: 0;
+  background-color: #181818;
+}
+
+.nav_infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding: 0;
+  margin-top: 15em;
+}
+
+.social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2em;
+  margin-top: 20em;
+  /* position: absolute; */
+  bottom: 100%;
+}
+
+.social ion-icon {
+  font-size: 1.6rem;
+}
+
+.nav_infos li {
+  border: rgb(116, 116, 116) 0.1px solid;
+  border-right: 0px;
+  border-left: 0px;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.nav_infos a {
+  color: #909096;
+}
+
+.nav_infos a:hover {
+  color: #0bfdd8;
+}
+
+ion-icon:hover {
+  color: #0bfdd8;
+}
+
+#logo {
+  width: 100%;
+  height: auto;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  height: 100vh;
+  width: 87%;
+}
+
+.main-body h1 {
+  margin-left: 5rem;
+  font-size: 5rem;
+  text-shadow: 5px 2px 10px black;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner-btn {
+  font-size: 1rem;
+  border: crimson 1px solid;
+  border-radius: 50px;
+  /* padding: 0.5r2rem; */
+  background-color: crimson;
+  margin-top: 2rem;
+  text-align: center;
+  width: 5rem !important;
+  height: 3rem !important;
+  /* display: inline-block; */
+}
+
+.banner-btn:hover {
+  background-color: white;
+  color: #0bfdd8;
+  border-color: #0bfdd8;
+  transition: 0.5s;
+}
+
+#particles-js {
+  height: 50vh;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.8;
+  position: absolute;
+  top: 100px;
+  left: 20%;
+  right: 15%;
+  margin: auto;
+  text-align: center;
+}
+
+#login-form {
+  background-color: #fff;
+  opacity: 0.8;
+  width: 40%;
+  padding: 2em 0;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-left: 3.2em;
+}
+
+#login-form label,
+#login-form input {
+  margin-top: 1rem;
+}
+
+#login-form input {
+  width: 15rem;
+  height: 1.5rem;
+  border-radius: 10px;
+}

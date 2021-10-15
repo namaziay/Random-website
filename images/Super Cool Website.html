@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:8080/ -->
+<html lang="en" class="hydrated"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Super Cool Website_files/style.css">
+    <link rel="stylesheet" href="./Super Cool Website_files/font-awesome.min.css">
+    <title>Super Cool Website</title>
+  <script type="module" src="./Super Cool Website_files/ionicons.esm.js" data-stencil-namespace="ionicons"></script><script nomodule="" src="./Super Cool Website_files/ionicons.js" data-stencil-namespace="ionicons"></script></head>
+  <body>&lt;&gt;
+    <menu class="main-menu">
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="./Super Cool Website_files/images.png" alt="Logo" id="logo">
+        </div>
+      </nav>
+
+      <ul class="nav_infos">
+        <li><a href="http://127.0.0.1:8080/#">About</a></li>
+        <li><a href="http://127.0.0.1:8080/#">My Skills</a></li>
+        <li><a href="http://127.0.0.1:8080/#">Work</a></li>
+        <li><a href="http://127.0.0.1:8080/#">Blog</a></li>
+        <li><a href="http://127.0.0.1:8080/#">Contact</a></li>
+      </ul>
+
+      <div class="social">
+        <ul>
+          <li>
+            <a href="http://127.0.0.1:8080/" class="icons">
+              <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:8080/" class="icons">
+              <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:8080/" class="icons">
+              <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:8080/" class="icons">
+              <ion-icon name="logo-youtube" role="img" class="md hydrated" aria-label="logo youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </menu>
+    <div class="main-body">
+    <div id="particles-js">
+        <div id="login">
+            <h1 style="color: white">
+                This is Ayaan and Pedro super cool CSS exercise!
+              </h1>
+              <div id="login-form">
+                  <form>
+                      <label class="labels">Username</label>
+                      <input class:="input" type="text" placeholder="Username">
+                      <br>
+                      <label class="labels">Password</label>
+                      <input class:="input" type="text" placeholder="Password">
+                      <br>
+                      <input type="submit" class="banner-btn">
+                    </form>
+
+              </div>
+                
+        </div>
+    <canvas class="particles-js-canvas-el" width="1845" height="573" style="width: 100%; height: 100%;"></canvas></div>
+    </div>
+
+    <div class="cool_images">
+        <ul>
+          <li>
+            <img src="./Super Cool Website_files/206-200x200.jpg">
+          </li>
+          <li>
+            <img src="./Super Cool Website_files/206-200x200.jpg">
+          </li>
+        </ul>
+    </div>
+    
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+
+  <script src="./Super Cool Website_files/ionicons(1).js"></script>
+  <script src="./Super Cool Website_files/particles.min.js"></script>
+  <script>
+      particlesJS.load('particles-js','particles.json', function(){
+          console.log('particles.json loaded......')
+      })
+  </script>
+
+ 
+</body></html>
